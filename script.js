@@ -15,5 +15,4 @@ function toggleMode() {
     img.setAttribute('src', './assets/assets/m-avatar.png')
     img.setAttribute("alt", "Luffy com um olhar fixo para frente e sorrindo.")
   }
-
 }
