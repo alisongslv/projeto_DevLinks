@@ -8,11 +8,11 @@ function toggleMode() {
   //substituir a imagem
   if(html.classList.contains('light')){
     //se tiver light mode, adc a img light
-    img.setAttribute('src', './assets/assets/s-avatar.png')
-    img.setAttribute('alt', 'Luffy Gear 5 meio de lado olhando fixo para frente enquanto sorri.')
+    img.setAttribute('src', './assets/assets/ps-avatar.png')
+    img.setAttribute('alt', 'Álison de terno cor vinho e óculos de grau sentado em um sofá e olhando para frente em um fundo com luz amarela.')
   } else {
     //senão tiver, manter a img q já tá
-    img.setAttribute('src', './assets/assets/m-avatar.png')
-    img.setAttribute("alt", "Luffy com um olhar fixo para frente e sorrindo.")
+    img.setAttribute('src', './assets/assets/pm-avatar.png')
+    img.setAttribute("alt", "Álison de terno cor vinho e óculos de grau olhando para frente com uma escada de fundo.")
   }
 }
